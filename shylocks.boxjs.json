@@ -1,0 +1,108 @@
+{
+  "id": "shylocks.app.sub",
+  "name": "shylocks 签到应用订阅",
+  "author": "@shylocks",
+  "icon": "https://avatars0.githubusercontent.com/u/5812638?s=460&u=7809808d21bd48a6c19c0dece533e92d4bb34151&v=4",
+  "repo": "https://github.com/shylocks/Scripts/tree/main",
+  "apps": [
+    {
+      "id": "jkd",
+      "name": "聚看点",
+      "keys": ["CookiesJKD2","JKD_WITHDRAW","JKDUA", "JKD_MSG"],
+      "author": "@shylocks",
+      "repo": "https://github.com/shylocks/Loon/blob/main/jkd.js",
+      "settings": [
+        {
+          "id": "CookiesJKD2",
+          "name": "聚看点cookie",
+          "val": "",
+          "type": "number",
+          "placeholder": "",
+          "desc": "格式：['ck1','ck2']，括号和引号都要填写"
+        },{
+          "id": "JKD_WITHDRAW",
+          "name": "提现金额",
+          "val": "",
+          "type": "number",
+          "placeholder": "默认不提现",
+          "desc": "仅允许填入数字，建议30提现"
+        },{
+          "id": "JKD_MSG",
+          "name": "是否通知",
+          "val": "",
+          "type": "number",
+          "placeholder": "0或者不填为不通知，1为通知",
+          "desc": ""
+        },{
+          "id": "JKDUA",
+          "name": "user agent",
+          "val": "",
+          "type": "string",
+          "placeholder": "不填则为ios端ua",
+          "desc": ""
+        }],
+      "icons": [],
+      "script": "https://raw.githubusercontent.com/shylocks/Loon/main/jkd.js"
+    },
+    {
+      "id": "jd_wechat_sign",
+      "name": "京东粉丝专享",
+      "keys": ["JDWECHATEXCHANGE"],
+      "author": "@shylocks",
+      "repo": "https://github.com/shylocks/Loon/blob/main/jd_wechat_sign.js",
+      "settings": [
+        {
+          "id": "JDWECHATEXCHANGE",
+          "name": "京东粉丝专享兑换京豆开关",
+          "val": "",
+          "type": "number",
+          "placeholder": "",
+          "desc": "1兑换京豆，0不兑换京豆"
+        }],
+      "icons": "https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_wechat_sign.png",
+      "script": "https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js"
+    },
+    {
+      "id": "jd_gyec",
+      "name": "工业品爱消除",
+      "keys": ["JDGYEC"],
+      "author": "@shylocks",
+      "repo": "https://github.com/shylocks/Loon/blob/main/jd_gyec.js",
+      "settings": [
+        {
+          "id": "JDGYEC",
+          "name": "工业品爱消除兑换商品名称",
+          "val": "",
+          "type": "string",
+          "placeholder": "",
+          "desc": "填写具体兑换商品的名称，默认为1888京豆"
+        }],
+      "icons": [
+        "https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_gyec.png",
+        "https://raw.githubusercontent.com/yogayyy/Scripts/main/Mini/shylocks/jd_gyxxl_mini.png"
+      ],
+      "script": "https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js"
+    },
+    {
+      "id": "jd_xxl",
+      "name": "东东爱消除",
+      "keys": ["JDEC"],
+      "author": "@shylocks",
+      "repo": "https://github.com/shylocks/Loon/blob/main/jd_xxl.js",
+      "settings": [
+        {
+          "id": "JDEC",
+          "name": "东东爱消除兑换商品名称",
+          "val": "",
+          "type": "string",
+          "placeholder": "",
+          "desc": "填写具体兑换商品的名称，默认为1888京豆"
+        }],
+      "icons": [
+        "https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_xxl.png",
+        "https://raw.githubusercontent.com/yogayyy/Scripts/main/Mini/shylocks/jd_xxl_mini.png"
+      ],
+      "script": "https://raw.githubusercontent.com/shylocks/Loon/main/jd_xxl.js"
+    }
+  ]
+}
